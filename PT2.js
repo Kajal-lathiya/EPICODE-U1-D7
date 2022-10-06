@@ -108,5 +108,11 @@ for (let i = 0; i < perArray.length; i++) {
 /*EX 9
  Write a piece of code for checking if a given number is even or odd.
 */
+let temp = 10;
+if (temp % 2 === 0) {
+    console.log(`${temp} is even number`);
+} else {
+    console.log(`${temp} is odd number`);
+}
 
 /* WRITE YOUR ANSWER HERE */
